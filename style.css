@@ -1,0 +1,64 @@
+/*
+Theme Name: storefront-child
+Descripton: thème enfant pixretail
+Author: jenna
+Author URI: https://pixretail.fr
+Template: storefront
+Version: 1.0.0
+*/
+
+.site-search{
+    display: none;
+}
+
+.site-branding{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    margin: 25px !important;
+}
+
+.main-navigation ul.menu, .main-navigation ul.nav-menu{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.custom-logo{
+    margin: 25px !important;
+}
+
+h2{
+    margin: 25px !important;
+}
+
+.imgProduct img{
+    border-radius: 0px !important;
+    margin: 0px !important;
+    width: 100% !important;
+}
+
+.hentry .entry-content .wp-block-button:not(.is-style-squared) .wp-block-button__link, .editor-styles-wrapper .wp-block-button:not(.is-style-squared) .wp-block-button__link{
+    border-radius: 30px !important;
+    color: white !important;
+    background-color: black !important;
+}
+
+.added_to_cart.alt, .added_to_cart, .widget a.button.checkout{
+    border-radius: 30px !important;
+    color: white !important;
+    background-color: black !important;
+}
+
+.added_to_cart, .site-header-cart .widget_shopping_cart a.button, .wc-block-grid__products .wc-block-grid__product .wp-block-button__link{
+    border-radius: 30px !important;
+    color: white !important;
+    background-color: black !important;
+}
+
+.button{
+    border-radius: 30px !important;
+    color: white !important;
+    background-color: black !important;
+}
